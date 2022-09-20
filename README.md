@@ -8,7 +8,7 @@ The bot retrieves the most recently uploaded advertisements on skelbiu.lt and se
 
 When initialized, the bot first fetches all existing and visible advertisements with the given configuration and stores their ids in a set. After finishing, every 30 seconds it fetches all unseen ads and sends their title, price, and link to Telegram as a message. Mostly new ads show up as well as the ones that were previously hidden.
 
-### Set-up
+### Set up
 
 1. Clone the repository
 2. Follow this [post](https://stackoverflow.com/a/67152755) to set up the Telegram bot.
