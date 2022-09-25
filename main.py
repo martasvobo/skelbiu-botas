@@ -47,7 +47,7 @@ while True:
     message = ""
     for ad in ads:
         seen.add(ad["id"])
-        # filters out macbooks
+        # filters out ads with prohibited keywords in their titles
         if not any(keyword in ad.a["href"].lower() for keyword in keywords):
             item_review = ad.find("div", {"class": "itemReview"})
             item_price = item_review.find("div", {"class": "adsPrice"}).span.text
