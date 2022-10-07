@@ -2,7 +2,7 @@
 
 ## Use case
 
-The bot retrieves the most recently uploaded advertisements on skelbiu.lt and sends a notification through Telegram. It can be hosted for free on Heroku.
+The bot retrieves most recently uploaded advertisements on skelbiu.lt and sends a notification through Telegram. It can be hosted for free on Heroku.
 
 ## How it works
 
